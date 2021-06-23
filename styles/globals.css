@@ -1,16 +1,16 @@
 html,
 body {
-    background-image:url('https://media1.giphy.com/media/Kl1ywyDrt8mbe/giphy.gif'); 
+    /* background-image:url('https://media1.giphy.com/media/Kl1ywyDrt8mbe/giphy.gif'); 
     background-size:100%;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    height:100%;
-    width:100%;
+    background-attachment: scroll; */
+    /* height:100vh;
+    width:100%; */
 
-  padding: 0;
+  /* padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -20,4 +20,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
 }
